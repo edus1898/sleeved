@@ -1,5 +1,5 @@
 // Keeps the app shell available offline. Data always comes from the network.
-const C = 'sleeved-v3';
+const C = 'sleeved-v4';
 self.addEventListener('install', (e) => {
   e.waitUntil(caches.open(C).then((c) => c.addAll(['./', 'manifest.webmanifest', 'icon.svg'])).then(() => self.skipWaiting()));
 });
