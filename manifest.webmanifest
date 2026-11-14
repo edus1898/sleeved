@@ -1,0 +1,14 @@
+{
+  "name": "Sleeved",
+  "short_name": "Sleeved",
+  "description": "Shared tracker for a group's trading card collection.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#131a33",
+  "theme_color": "#131a33",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}
